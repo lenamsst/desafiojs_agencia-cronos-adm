@@ -46,4 +46,7 @@ function listarServicos() {
 
     //Inserindo lista de serviços no html
     painelServicos.innerHTML = htmlServicos;
+    
 }
+
+listarServicos();

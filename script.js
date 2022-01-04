@@ -80,4 +80,21 @@ function listarServicos() {
     
 }
 
+//Função para abrir a janela modal com dados inseridos nos campos do formúlario
+function abrirEdicaoServico(id) {
+
+    btnSalvo.style.display = 'none';
+    btnEditar.style.display ='initial';
+
+    for(let i = 0; i < servicos.length; i++) {
+        if (servicos[i]['id'] == id){
+            document.getElementById('id').value = servicos[i]['id'];
+            document.getElementById('nome').value = servicos[i]['nome'];
+            document.getElementById('imagem').value = servicos[i]['imagem'];
+            document.getElementById('descricao').value = servicos[i]['descricao'];
+
+        }
+    }
+}
+
 listarServicos();

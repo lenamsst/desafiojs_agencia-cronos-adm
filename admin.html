@@ -27,6 +27,7 @@
         <div class="col">
           <h3>Serviços</h3>
           <button class="btn btn-primary" id="btnEnviar" data-toggle="modal" data-target="#exampleModalCenter">Adicionar novo</button>
+
             <!-- Inicio Modal bootstrap com formulario no corpo-->
             <div class="modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered " role="document">
@@ -50,7 +51,7 @@
                   </div>
                   <div class="modal-footer">
                     <button class="btn btn-secondary m-1">limpar</button>
-                    <button type="submit" class="btn btn-danger m-2" id="btnSalvo" data-dismiss="modal">salvar</button>
+                    <button type="submit" class="btn btn-danger m-2" id="btnSalvo" onclick="btnCadastrarNovo()" data-dismiss="modal">salvar</button>
                     <button type="submit" class="btn btn-danger m-2" id="btnEditar" data-dismiss="modal">editar</button>
                   </div>
                 </form>
@@ -59,7 +60,7 @@
             </div> 
              <!--Fim Modal-->
 
-          <table class="table my-5">
+            <table class="table my-5">
             <thead>
               <tr>
                 <td>Nome</td>
@@ -68,7 +69,7 @@
                 <td>Ações</td>
               </tr>
             </thead>
-            <tbody class="painel-servicos"></tbody>>
+            <tbody class="painel-servicos"></tbody>
              <!--  <tr>
                 <td>Desenvolvimento Web</td>
                 <td><img src="imagens/ilustra-web.png" class="img-fluid" /></td>

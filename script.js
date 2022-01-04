@@ -19,6 +19,37 @@ const servicos = [{
     acoes: []
 }];
 
+//Função para cadastrar novo serviço
+function btnCadastrarNovo() {
+    
+    //Captura campos do formulario
+    let nome_input = document.querySelector('#nome');
+    let imagem_input = document.querySelector('#imagem');
+    let descricao_input = document.querySelector('#descricao');
+
+    //Condicional verifica campos vazios e retorna msg de erro
+    if ((nome_input.value == '') || (imagem_input.value == '') || (descricao_input.value == '')) {
+        alert('Nome, Imagem e Descrição devem ser preenchidos!')
+    } else {
+        //Adicionando novo serviço
+        let salvarNovo = {
+            //id: servicos.length + 1,
+            nome: nome_input.value,
+            imagem: imagem_input.value,
+            descricao: descricao_input.value
+        }
+
+    
+        servicos.push(salvarNovo);
+        window.scrollTo(0,document.body.scrollHeight)
+        
+    }
+
+      listarServicos();
+    
+}
+
+
 //Função para listar os serviços de forma dinamica
 function listarServicos() {
 

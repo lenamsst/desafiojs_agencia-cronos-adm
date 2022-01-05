@@ -19,6 +19,7 @@ const servicos = [{
     acoes: []
 }];
 
+
 //Função para cadastrar novo serviço
 function btnCadastrarNovo() {
     
@@ -46,9 +47,14 @@ function btnCadastrarNovo() {
     }
 
       listarServicos();
-    
+      btnLimpar();
 }
 
+//Função para pré-visualizar imagem no formulario
+function visualizaImagem (event) {
+    preview.style.display = "block"
+    preview.src = imagem.value
+};
 
 //Função para listar os serviços de forma dinamica
 function listarServicos() {

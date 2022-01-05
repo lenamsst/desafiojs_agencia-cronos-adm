@@ -44,7 +44,7 @@
                     <label for="nome">Nome:</label>
                       <input type="text" name="nome" id="nome" class="form-control mb-4" required placeholder="Exemplo: Banco de Dados">
                       <label for="imagem">Imagem:</label>
-                      <input type="text" id="imagem" class="form-control " name="imagem" placeholder="Colar URL da imagem aqui"> 
+                      <input type="text" id="imagem" class="form-control " name="imagem" onchange="visualizaImagem(event)" placeholder="Colar URL da imagem aqui"> 
                       <img id="previewimg" class="img-thumbnail w-60 mt-1"/>              
                       <label for="descricao" class="mt-4" >Descrição:</label>
                       <textarea id="descricao" required placeholder="Descrição do Serviço"  class="form-control" rows="5"></textarea>

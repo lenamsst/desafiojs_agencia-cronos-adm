@@ -50,6 +50,9 @@ function btnCadastrarNovo() {
       btnLimpar();
 }
 
+const preview = document.getElementById('previewimg');
+preview.style.display = "none";
+
 //Função para pré-visualizar imagem no formulario
 function visualizaImagem (event) {
     preview.style.display = "block"

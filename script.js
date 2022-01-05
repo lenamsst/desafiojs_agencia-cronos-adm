@@ -97,4 +97,24 @@ function abrirEdicaoServico(id) {
     }
 }
 
+function atualizarServico() { 
+
+    let id = document.getElementById('id').value;
+
+    for(let i = 0; i < servicos.length; i++) {
+        if (servicos[i]['id'] == id){
+
+            let salvarNovo = {
+                id: document.getElementById('id').value,
+                nome: document.getElementById('nome').value,
+                imagem: document.getElementById('imagem').value,
+                descricao: document.getElementById('descricao').value
+            }
+            servicos.splice(i, 1, salvarNovo);
+        }
+    }
+    listarServicos();
+}
+
+
 listarServicos();

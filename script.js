@@ -80,6 +80,17 @@ function listarServicos() {
     
 }
 
+//Função para limpar todos os campos do formulario 
+function btnLimpar() {
+    
+    btnEditar.style.display ='none';
+
+    document.getElementById('nome').value = "";
+    document.getElementById('imagem').value = "";
+    document.getElementById('previewimg').src = "";
+    document.getElementById('descricao').value = "";
+}
+
 //Função para abrir a janela modal com dados inseridos nos campos do formúlario
 function abrirEdicaoServico(id) {
 

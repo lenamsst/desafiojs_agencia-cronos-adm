@@ -40,7 +40,7 @@ function btnCadastrarNovo() {
             descricao: descricao_input.value
         }
 
-    
+        alert('Novo serviço adicionado!')
         servicos.push(salvarNovo);
         window.scrollTo(0,document.body.scrollHeight)
         

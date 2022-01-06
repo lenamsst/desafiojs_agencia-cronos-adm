@@ -7,8 +7,7 @@
   
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/lenamsst/desafiojs_agencia-cronos-adm">
-  
-  <img alt="license" src="https://img.shields.io/github/license/lenamsst/desafiojs_agencia-cronos-adm">
+
 
 
 </p>
@@ -86,3 +85,6 @@ Pessoas que contribuíram para este projeto:
   </tr>
 </table>
  
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT.

@@ -136,5 +136,15 @@ function atualizarServico() {
     listarServicos();
 }
 
-
-listarServicos();
+function deletarServico (id) {  
+      
+       for(let i = 0; i < servicos.length; i++) {        
+          if (servicos[i]['id'] == id){
+              servicos.splice(i, 1);
+          }        
+      }
+      listarServicos();
+  }
+   
+  
+  listarServicos();

@@ -34,7 +34,7 @@ function btnCadastrarNovo() {
     } else {
         //Adicionando novo serviço
         let salvarNovo = {
-            //id: servicos.length + 1,
+            id: servicos.length + 1,
             nome: nome_input.value,
             imagem: imagem_input.value,
             descricao: descricao_input.value

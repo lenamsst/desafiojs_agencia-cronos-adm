@@ -73,3 +73,16 @@ $ npm run start
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
 > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+
+## 🤝 Colaboradores
+
+Pessoas que contribuíram para este projeto:
+
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/lenamsst"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85361518?v=4" width="100px;" alt=""/><br /><sub><b>Milena Garcia</b></sub></a><br/></td>
+    <td align="center"><a href="https://github.com/thaisanchieta"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/94201352?v=4" width="100px;" alt=""/><br /><sub><b>Thais Anchieta</b></sub></a><br /></td>
+  </tr>
+</table>
+ 

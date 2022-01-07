@@ -84,6 +84,10 @@ Pessoas que contribuíram para este projeto:
     <td align="center"><a href="https://github.com/thaisanchieta"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/94201352?v=4" width="100px;" alt=""/><br /><sub><b>Thais Anchieta</b></sub></a><br /></td>
   </tr>
 </table>
+
+## Deploy da Aplicação com Netlify: :dash:
+
+> [wwww.cronosagencia.com.br](https://cronosagencia.netlify.app/)
  
 ## 📝 Licença
 

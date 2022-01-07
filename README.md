@@ -16,7 +16,7 @@
 
 ## 💻 Sobre o projeto
 
-Agência Cronos nos contratou para o desenvolvimento do site institucional, o foco é no gerenciamento de serviços.
+Cronos Agência nos contratou para o desenvolvimento do site institucional, o foco é no gerenciamento de serviços.
 
 - Desenvolvimento das funcionalidades para criar, editar e deletar serviços da lista (o famoso CRUD).
 

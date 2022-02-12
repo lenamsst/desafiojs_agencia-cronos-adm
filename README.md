@@ -20,7 +20,7 @@ Cronos Agência nos contratou para o desenvolvimento do site institucional, o fo
 
 - Desenvolvimento das funcionalidades para criar, editar e deletar serviços da lista (o famoso CRUD).
 
-Projeto desenvolvido durante o Gama Experience XP39 oferecida pela  <a href="https://www.gama.academy/gama-experience/desenvolvimento-full-stack">[Gama Academy]</a>
+Projeto desenvolvido durante o Gama Experience XP40 oferecida pela  <a href="https://www.gama.academy/gama-experience/desenvolvimento-full-stack">[Gama Academy]</a>
 
 ## 🎨 Layout
 
